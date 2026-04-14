@@ -21,6 +21,11 @@
 #header #nav-items li a{
   text-decoration: none;
   padding-right: 20px;
+  color: black;
+}
+#header #nav-items li a:hover{
+  color: white;
+  transition: ease-in-out 0.3s;
 }
 
 #nav-items{
