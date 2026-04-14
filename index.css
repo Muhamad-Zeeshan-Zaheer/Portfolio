@@ -38,6 +38,9 @@
   transition: 0.3s;
   border-radius: 2px;
 }
+#hamburger{
+  display: none;
+}
 
 /* Tablet screens (up to 768px) */
 @media (max-width: 768px) {
