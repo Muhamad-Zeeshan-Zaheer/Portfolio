@@ -5,15 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Muhammad Zeeshan Zaheer</title>
   <script src="https://kit.fontawesome.com/d43c8925be.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
   <header id = "header">
     <h4 id = "logo">Muhammad Zeeshan Zaheer</h4>
     <input type="checkbox" id="hamburger-toggle">
-<label for="hamburger-toggle" id="hamburger">
-  <i class="fa-solid fa-bars fa-xs" style="color: #ffffff;"></i>
-</label>
+    <label for="hamburger-toggle" id="hamburger">
+      <i class="fa-solid fa-bars fa-xs" style="color: black;"></i>
+    </label>
     <div id = "nav-items">
       <li><a href="#">Home</a></li>
       <li><a href="#">About</a></li>
@@ -22,5 +23,40 @@
       <li><a href="#">Contact Me</a></li>
     </div>
   </header>
+  <main id="main-section">
+    <section>
+      <div class="left">
+        <p id="web-developer-text">HI, I'M A WEB DEVELOPER</p>
+        <br>
+        <span id="element"></span>
+        <script>
+          var typed = new Typed('#element', {
+            strings: ['Ruby on Rails Engineer', 'Sqa Enthusiast'],
+            typeSpeed: 50,
+            loop: true
+          });
+        </script>
+        <br> <br>
+        <P>based in Lahore Pakistan</P>
+      </div>
+
+      <div class="right">
+        <img id="image1" src="images/developer.png" alt="image">
+      </div>
+
+    </section>
+  </main>
+
+  <section id="section2">
+    <h5 id="aboutme">About ME</h5>
+    <h4 id="knowmemore">Know Me More</h4>
+
+    <div class="intro">
+      <div class="left"></div>
+      <div class="right"></div>
+
+    </div>
+  </section>
+
 </body>
 </html>
