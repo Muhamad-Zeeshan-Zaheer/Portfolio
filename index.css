@@ -320,6 +320,7 @@ html, body {
   margin-bottom: 30px;
   text-transform: uppercase;
   letter-spacing: 1px;
+  text-align: left;
 }
 
 .experience-item {
@@ -360,13 +361,15 @@ html, body {
 
   .resume-container {
     flex-direction: column;
-    gap: 40px;
-    padding: 30px 20px;
+    gap: 30px;
+    padding: 20px 15px;
+    max-width: 100%;
   }
 
   .resume-column h4 {
     font-size: 1.3rem;
     margin-bottom: 20px;
+    text-align: left;
   }
 
   .education-item h5 {
@@ -451,7 +454,9 @@ html, body {
     margin-top: 30px;
     justify-content: center;
     text-align: center;
-    margin-left: 10rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .experience .circle {
@@ -475,18 +480,68 @@ html, body {
     margin-top: 20px;
     justify-content: center;
     text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .experience .circle {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
   }
 
   .experience .number {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .experience .text {
+    font-size: 0.8rem;
+  }
+
+  .section-heading h2 {
+    font-size: 1.5rem;
+  }
+
+  #section2 #aboutme {
+    font-size: 1.1rem;
+  }
+
+  #section2 #knowmemore {
+    font-size: 1.5rem;
+  }
+
+  .intro .left h3 {
+    font-size: 1.3rem;
+  }
+
+  .intro .left p {
     font-size: 0.9rem;
+  }
+  .resume-column h4 {
+    font-size: 1.1rem;
+    text-align: left;
+  }
+
+  .education-item {
+    padding: 15px;
+    margin: 10px 0;
+  }
+
+  .experience-item {
+    padding: 15px;
+    margin: 10px 0;
+  }
+
+  .education-item h5 {
+    font-size: 0.95rem;
+  }
+
+  .experience-item h5 {
+    font-size: 0.9rem;
+  }
+
+  .education-item p,
+  .experience-item p {
+    font-size: 0.85rem;
   }
 }
